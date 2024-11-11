@@ -17,13 +17,13 @@ function Header() {
         </section>
 
         <section className=" ml-auto mr-4 hover:text-indigo-400  ">
-          <Image
-            className="w-20 h-20 rounded-full "
+          <img src="/images.webp" alt="Profile" />
+            {/* className="w-20 h-20 rounded-full "
             src="/images.webp"
             alt="Profile"
             width={20}
             height={20}
-          />
+           */}
           <details>
             <summary>
               <>Suhaib</>
