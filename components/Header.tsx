@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Header() {
   return (
@@ -16,13 +17,7 @@ function Header() {
         </section>
 
         <section className=" ml-auto mr-4 hover:text-indigo-400  ">
-          <img src="/images.webp" alt="Profile" />
-            {/* className="w-20 h-20 rounded-full "
-            src="/images.webp"
-            alt="Profile"
-            width={20}
-            height={20}
-           */}
+          <Image src="/images.webp" alt="Profile" width={100} height={100} className="h-20 w-20 rounded-full"/>
           <details>
             <summary>
               <>Suhaib</>
